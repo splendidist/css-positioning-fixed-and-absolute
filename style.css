@@ -1,0 +1,171 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 50px 0px 0px 100px;
+  margin: 0px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+#Title {
+  font-size: 44px;
+  margin: 32px 0px 16px 0px;
+}
+
+#schedule-icon,
+#image-1-caption {
+  color: dimgray;
+}
+
+.Date {
+  font-size: 15px;
+  color: dimgray;
+  margin: 16px 0px;
+}
+
+#share-icon {
+  color: white;
+}
+
+#share-button {
+  height: 45px;
+  width: 45px;
+  background-color: #b80000;
+  border: none;
+  margin-bottom: 40px;
+  transition-duration: 0.3s;
+}
+
+#share-button:hover {
+  background-color: darkred;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image-container {
+  background: #eee;
+  height: 700px;
+  width: 1200px;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container p {
+  color: white;
+  background-color: #141414;
+  text-transform: uppercase;
+  font-size: 14px;
+  /* positioning styles*/
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 5px 3px;
+}
+
+#bbc-news {
+  color: dimgray;
+  font-size: 16px;
+}
+
+hr.solid {
+  border-top: 2px solid dimgray;
+}
+
+#copy-bold,
+a {
+  font-weight: bold;
+}
+
+#copy-bold,
+.copy-normal,
+ul a {
+  line-height: 30px;
+}
+
+a {
+  color: black;
+}
+
+.related-topics {
+  font-size: 24px;
+  margin: 0px;
+  padding: 30px 0px;
+}
+
+#related-topics-anchors a {
+  text-decoration: none;
+  background-color: lightgray;
+  padding: 12px;
+  margin-right: 10px;
+}
+
+#related-topics-anchors a:hover,
+ul a:hover,
+.more-stories-cards a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+.more-stories-cards {
+  background-color: lightgray;
+  width: 600px;
+  height: 110px;
+  margin-bottom: 30px;
+  /* positioning styles*/
+  position: relative;
+}
+
+.more-stories-cards img {
+  height: 100%;
+  width: 33%;
+}
+
+.more-stories-cards a {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  font-size: 20px;
+  right: 20px;
+}
+
+.more-stories-cards p {
+  position: absolute;
+  left: 220px;
+  font-size: 13px;
+  margin: 0px;
+  bottom: 20px;
+}
+
+.cookie-notice {
+  color: white;
+  background: #b80000;
+  padding: 20px 100px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.cookie-notice button {
+  border: none;
+  background-color: white;
+  padding: 5px;
+  margin-right: 10px;
+  width: 50px;
+}
+
+.cookie-notice button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  color: white;
+  background-color: #b80000;
+}
